@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1a2b33;
+  color: white;
+}
+header,
+section,
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  background-color: #a9bec8;
+  color: black;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5%;
+  gap: 5%;
+  margin-bottom: 20px;
+}
+.square {
+  width: 100px;
+  height: 110px;
+  background-color: #a9bec8;
+
+  color: black;
+  font-size: 100px;
+  box-shadow: 5px;
+  border-radius: 20%;
+}
+.square:hover {
+  box-shadow: 5px 10px;
+}
+.players {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.winner-div {
+  background-color: white;
+  color: black;
+  width: 60%;
+  height: 200px;
+  position: absolute;
+  bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.update-btn,
+.quit-btn {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* main first page */
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.start-btn,
+.quit-game-btn {
+  padding: 20px;
+  font-size: 30px;
+  color: #1a2b33;
+  background-color: #fff;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.start-btn:hover,
+.quit-game-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
