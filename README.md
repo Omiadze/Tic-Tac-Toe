@@ -7,9 +7,8 @@ This is a solution to Odin Projects tic-tac-toe challange.
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [What I've learned](#Learned)
+
 - [Author](#author)
 
 ## Overview
@@ -28,4 +27,4 @@ This is a simple tic-tac-toe game. Design is from frontendmentor.
 
 ## Author
 
-Hello, I'm Teo
+Hello, I'm Teo, Front-End developer.
